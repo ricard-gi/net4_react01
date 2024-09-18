@@ -1,0 +1,14 @@
+
+.caja {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    line-height: 30px;    
+    font-weight: bold;
+    margin: 4px;
+    display: inline-block;
+    border-radius: 8px;
+}
