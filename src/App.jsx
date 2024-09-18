@@ -1,5 +1,7 @@
 
+import Ciutats from "./Ciutats";
 import Contador from "./Contador";
+import Interruptor from "./Interruptor";
 import Numero from "./Numero";
 import Titulo from "./Titulo";
 
@@ -27,6 +29,12 @@ function App() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, a. Earum aliquid tempora ut excepturi soluta, totam dolor, adipisci amet, aspernatur deleniti tenetur. Ab quod est alias ipsa quasi assumenda.</p>
             <Contador />
             {valores.map(z => <Numero key={z} valor={z} />)}
+
+
+            <Interruptor />
+
+
+            <Ciutats />
             
         </>
     )
